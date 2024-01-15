@@ -1,0 +1,41 @@
+{
+  "name": "stylelint-config-dipcode",
+  "version": "0.0.1",
+  "description": "Shareable stylelint config for CSS and SCSS, following Dipcode code style.",
+  "main": "./src/config.js",
+  "scripts": {
+    "prettier:base": "prettier './**/*.{js,yml,json,md}'",
+    "lint": "npm run prettier:base -- --check",
+    "format": "npm run prettier:base -- --write",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,yml,json,md}": "npm run format"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipcode-software/stylelint-config-dipcode.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelintconfig",
+    "stylelint-config",
+    "dipcode"
+  ],
+  "author": "Team Dipcode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dipcode-software/stylelint-config-dipcode/issues"
+  },
+  "homepage": "https://github.com/dipcode-software/stylelint-config-dipcode#readme",
+  "exports": [
+    "./src/config.js"
+  ],
+  "devDependencies": {
+    "husky": "8.0.0",
+    "prettier": "3.2.2"
+  },
+  "dependencies": {
+    "stylelint-order": "^6.0.4"
+  }
+}
