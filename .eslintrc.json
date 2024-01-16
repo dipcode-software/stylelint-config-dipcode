@@ -1,0 +1,12 @@
+{
+  "extends": ["eslint:recommended", "prettier"],
+  "plugins": ["prettier"],
+  "env": { "es6": true, "node": true },
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "prettier/prettier": "error"
+  },
+  "ignorePatterns": ["node_modules"]
+}
