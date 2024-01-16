@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-dipcode",
+  "name": "@dipcode/stylelint-config",
   "version": "0.0.1",
   "description": "Shareable stylelint config for CSS and SCSS, following Dipcode code style.",
   "main": "./src/config.js",
