@@ -28,9 +28,7 @@
     "url": "https://github.com/dipcode-software/stylelint-config-dipcode/issues"
   },
   "homepage": "https://github.com/dipcode-software/stylelint-config-dipcode#readme",
-  "exports": [
-    "./src/config.js"
-  ],
+  "exports": "./src/config.js",
   "devDependencies": {
     "husky": "8.0.0",
     "lint-staged": "15.2.0",
