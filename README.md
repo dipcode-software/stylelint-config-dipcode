@@ -1,5 +1,7 @@
 # Dipcode Stylelint config
 
+[![stylelint-config-torchbox on npm](https://img.shields.io/npm/v/stylelint-config-torchbox.svg)](https://www.npmjs.com/package/stylelint-config-torchbox) [![Build status](https://github.com/torchbox/stylelint-config-torchbox/workflows/CI/badge.svg)](https://github.com/torchbox/stylelint-config-torchbox/actions)
+
 > Shareable Stylelint config for CSS and SCSS, following Dipcode code style.
 
 - [Usage](#usage)
