@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [v0.1.2] - 2024-01-23
 
+### Added
+
+- Rules for vendor prefixes.
+
 ### Fixed
 
 - Warning about 'declaration-strict-value' not having autoFix function.
