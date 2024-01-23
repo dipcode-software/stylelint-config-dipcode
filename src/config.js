@@ -16,6 +16,7 @@ module.exports = {
           '/margin/': ['unset', 0, 'inherit', 'auto'],
           '/padding/': ['unset', 0, 'inherit'],
         },
+        disableFix: true,
       },
     ],
     'declaration-no-important': true,
