@@ -5,6 +5,11 @@ module.exports = {
   extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier-scss'],
   plugins: ['stylelint-order', 'stylelint-declaration-strict-value'],
   rules: {
+    'property-no-vendor-prefix': true,
+    'value-no-vendor-prefix': true,
+    'selector-no-vendor-prefix': true,
+    'media-feature-name-no-vendor-prefix': true,
+    'at-rule-no-vendor-prefix': true,
     'no-descending-specificity': null,
     'order/properties-alphabetical-order': true,
     'scale-unlimited/declaration-strict-value': [
