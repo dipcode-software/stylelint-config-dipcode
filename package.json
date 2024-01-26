@@ -30,7 +30,7 @@
   "homepage": "https://github.com/dipcode-software/stylelint-config-dipcode#readme",
   "exports": "./src/config.js",
   "devDependencies": {
-    "@dipcode/prettier-config": "0.1.0",
+    "@dipcode/prettier-config": "0.1.1",
     "husky": "8.0.3",
     "lint-staged": "15.2.0"
   },
